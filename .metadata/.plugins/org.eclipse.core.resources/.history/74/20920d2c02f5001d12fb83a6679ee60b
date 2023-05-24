@@ -1,0 +1,21 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String opcao = "Quarta-feira";
+		int opcao2 = 4;
+		
+		switch (opcao2) {
+		case "Quarta-feira":
+			
+			break;
+
+		default:
+			break;
+		}
+
+	}
+
+}

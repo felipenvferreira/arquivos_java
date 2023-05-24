@@ -1,0 +1,19 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Contadora {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);{
+			
+		int contador = 0;
+		int opcao = 0;
+		
+		
+		sc.close();
+		}
+
+	}
+
+}

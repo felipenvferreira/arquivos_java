@@ -1,0 +1,10 @@
+package mostrar_numero;
+
+public class mostrar_numero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

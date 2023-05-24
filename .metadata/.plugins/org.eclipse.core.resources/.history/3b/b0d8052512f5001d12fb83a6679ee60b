@@ -1,0 +1,19 @@
+package principal;
+
+import java.util.Random;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Random randon = new Random();
+		
+		int dado1 = randon.nextInt(6) + 1;
+		int dado2 = randon.nextInt(6) + 1;
+		int dado3 = randon.nextInt(6) + 1;
+		
+		System.out.println(dado1);
+		System.out.println(dado2);
+		System.out.println(dado3);
+	}
+	
+}

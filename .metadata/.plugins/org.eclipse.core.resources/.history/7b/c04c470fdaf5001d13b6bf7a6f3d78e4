@@ -1,0 +1,39 @@
+package principal;
+
+import java.util.Random;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Random randon = new Random();
+		
+		int dado1 = randon.nextInt(6) + 1;
+		int dado2 = randon.nextInt(6) + 1;
+		int dado3 = randon.nextInt(6) + 1;
+		
+		System.out.println("Valor Dado 1: " + dado1);
+		System.out.println("Valor Dado 2: " + dado2);
+		System.out.println("Valor Dado 3: " + dado3);
+		
+		int soma = dado1 + dado2 + dado3;
+		
+		if((dado1 == dado2) || (dado1 == dado3) || (dado2 == dado3)) {
+			int bonus = 2;
+			soma += bonus;
+		}
+		
+		else if (dado1 == dado2 && dado2 == dado3) {
+			int bonus = 6;
+			soma += bonus;
+			System.out.println("Você é muito sortudo!");
+		}
+		
+		if(soma < 15) {
+			System.out.println("Lamento, mas você perdeu");
+		}
+		else {
+			System.out.println("Parabéns, você ganhou!");
+		}
+	}
+	
+}

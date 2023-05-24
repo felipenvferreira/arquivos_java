@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;principal.Program&apos; to &apos;MediaAlturas&apos;&#x0D;&#x0A;- Original project: &apos;Media_Altura&apos;&#x0D;&#x0A;- Original element: &apos;principal.Program&apos;&#x0D;&#x0A;- Renamed element: &apos;principal.MediaAlturas&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Program&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;principal{Program.java[Program" matchStrategy="1" name="MediaAlturas" qualified="false" references="true" similarDeclarations="false" stamp="1684797627741" textual="false" version="1.0"/>
+</session>

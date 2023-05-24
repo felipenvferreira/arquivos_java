@@ -1,0 +1,46 @@
+package principal;
+
+import java.util.Random;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Random randon = new Random();
+		
+		int dado1 = randon.nextInt(6) + 1;
+		int dado2 = randon.nextInt(6) + 1;
+		int dado3 = randon.nextInt(6) + 1;
+		
+		System.out.println("Valor Dado 1: " + dado1);
+		System.out.println("Valor Dado 2: " + dado2);
+		System.out.println("Valor Dado 3: " + dado3);
+		
+		int soma = dado1 + dado2 + dado3;
+		
+		int bonus = 0;
+		
+		switch (soma) {
+		case 3:
+		case 12:
+			bonus = 6;
+			System.out.println("Você é muito sortudo");
+			break;
+		case 2:
+		case 4:
+		case 6:
+		case 8:
+		case 10:
+		case 11:
+			bonus = 2;
+			break;
+		}
+		soma += bonus;
+		if(soma < 15) {
+			System.out.println("Lamento, mas você perdeu");
+		}
+		else {
+			System.out.println("Parabéns, você ganhou!");
+		}
+	}
+	
+}

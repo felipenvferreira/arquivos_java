@@ -1,0 +1,36 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String opcao = "Sexta-feira";
+		//int opcao2 = 4;
+		
+		/*switch (opcao) {
+		case "Quarta-feira":
+			System.out.println("O dia selecionado é quarta-feira");
+			break;
+		case "Quinta-feira":
+			System.out.println("O dia selecionado é quinta-feira");
+			break;
+		case "Sexta-feira":
+			System.out.println("Sextou!!!");
+			break;
+
+		default:
+			System.out.println("Não corresponde a um dia da semana");
+			break;
+		}*/
+		if(opcao == "Sexta-feira") {
+			System.out.println("Sextou!!!");
+		}
+		else if (opcao.equals("Quarta-feira")){
+			System.out.println("O dia selecionado é quarta-feira");
+		}
+		else {
+			System.out.println("Não corresponde a um dia da semana");
+		}
+	}
+
+}

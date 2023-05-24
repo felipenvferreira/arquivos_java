@@ -1,0 +1,33 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		
+		System.out.println("Digite a altura de 5 pessoas: ");
+		
+		System.out.println("Altura 1: ");
+		double altura1 = leia.nextDouble();
+		
+		System.out.println("Altura 2: ");
+		double altura2 = leia.nextDouble();
+		
+		System.out.println("Altura 3: ");
+		double altura3 = leia.nextDouble();
+		
+		System.out.println("Altura 4: ");
+		double altura4 = leia.nextDouble();
+		
+		System.out.println("Altura 5: ");
+		double altura5 = leia.nextDouble();
+		
+		double media = altura1 + altura2 + altura3 + altura4 + altura5 / 5;
+		
+		System.out.println("A média de altura das 5 pessoas é de: " + media);
+
+	}
+
+}
