@@ -6,8 +6,11 @@ public class Livro {
 	 * Ordem sugerida a seguir na classe:
 	 * 1° atributos da classe
 	 * 2° construtores
-	 * 3° metodos get e set
+	 * 3° metodo get e set
 	 * 4° demais metodos
+	 * get é para obter e set para atribuir
+	 * quando precisa de dados obrigatórios faz o construtor (alt + shift + S)
+	 * o this é uma palavra para distinguir o que é atribuido da classe para o parametro recebido
 	 */
 	
 	private String titulo;
@@ -32,16 +35,14 @@ public class Livro {
 
 	public void setValorLivro(double valorLivro) {
 		if(valorLivro > 100) {
-		this.valorLivro += (valorLivro * 0.30);
-		} else {
-			this.valorLivro = valorLivro;
+			this.valorLivro = valorLivro + (valorLivro * 0.30);
 		}
 		
 	}
 	
 	@Override
 	public String toString() {
-		return "Titulo: " + titulo + "\nEdição: n° " + edicao + "\nValor: R$ " + valorLivro;
+		return "Titulo: " + titulo + "\nEdição: " + edicao + "\nValor: " + valorLivro;
 	}
 	
 
