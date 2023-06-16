@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="entities.Carro"/>
     <fullyQualifiedTypeName name="entities.Pessoa"/>
     <fullyQualifiedTypeName name="entities.Area"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
