@@ -15,17 +15,22 @@ public class Program {
 		Conta conta = new Conta("Felipe", 411, 144);
 		ContaCorrente contaCorrente = new ContaCorrente("Sofia", 6562, 1513);
 		
+		Conta cc = new ContaCorrente("Testar", 4425, 6699);
+		
 		contaPoupanca.depositar(500);
 		conta.depositar(500);
 		contaCorrente.depositar(500);
+		cc.depositar(500);
 		
 		contaPoupanca.sacar(500);
 		conta.sacar(500);
 		contaCorrente.sacar(500);
+		cc.sacar(500);
 		
 		System.out.println(contaPoupanca);
 		System.out.println(conta);
 		System.out.println(contaCorrente);
+		System.out.println(cc);
 		
 		/*System.out.println("Entre com o titular da conta: ");
 		contaPoupanca.setNomeTitular(sc.nextLine());
